@@ -1,0 +1,31 @@
+
+body
+{
+    font-family: Lucida Sans Unicode;
+    background-color: #111111;
+    color: #BBBBBB;
+}
+
+a:link {
+  color: #90BAAD;
+}
+
+a:visited {
+  color: #A1E5AB;
+}
+
+a:hover {
+  color: #90BAAD;
+}
+
+a:active {
+  color: #ADF6B1;
+}
+
+#main-area
+{
+    width: 640px;
+    margin: auto;
+    background-color: #222222;
+    padding: 15px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta type="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="game-area">
+            <h1 id="game-header">
+            <span class="header-red">S</span><!--
+            --><span class="header-white">A</span><!--
+            --><span class="header-red">N</span><!--
+            --><span class="header-white">T</span><!--
+            --><span class="header-red">A</span>
+            <span class="header-red">S</span><!--
+            --><span class="header-white">H</span><!--
+            --><span class="header-red">O</span><!--
+            --><span class="header-white">O</span><!--
+            --><span class="header-red">T</span><!--
+            --><span class="header-white">E</span><!--
+            --><span class="header-red">R</span>
+            </h1>
+            <div id="warning">
+                <h2>WARNING</h2>
+                <p>THIS IS THE MOST EXTREME CHRISTMAS GAME EVER, FULL OF GORE AND BLOOD AND GUTS AND GIBS AND TERROR AND FRIGHT AND TERRIBLE THINGS</p>
+                <p>PREPARE FOR THE MOST FRIGHTENING AND THRILLING CHRISTMAS EXPERIENCE EVER.</p>
+                <button id="continue-btn" onclick="destroyWarning()">Continue</button>
+            </div>
+            <div id="text-game-area" style="display:none">
+                <div class="small-gray-text">A perfectly family friendly game for DOS :)</div>
+                <div id="text-game-console-area">
+                    <div id="text-area"></div>
+                    <input id="text-input" placeholder="Input Here..."></input>
+                    <br>
+                    <button id="text-btn" onclick="getInput()">Go</button>
+                </div>
+            </div>
+            <script type="text/javascript" src="main.js"></script>
+        </div>
+    </body>
+</html>
