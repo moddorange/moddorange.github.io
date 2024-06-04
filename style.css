@@ -1,0 +1,20 @@
+
+body {
+	background-color: #111111;
+	color:#DDDDDD;
+	font-family: Georgia;
+}
+
+#main {
+	background-color: #111111;
+	width: 52%;
+	margin: auto;
+}
+
+#mainlight {
+	background-color: #EEEEEE;
+	padding: 13px;
+	color:#333333;
+	width: 52%;
+	margin: auto;
+}
